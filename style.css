@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100%;
+}
+
+#logo, #form {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 40%;
+}
+
+#form {
+    width: 60%;
+}
+
+#logo div:first-child {
+
+}
+
+#logo div:first-child + div {
+    margin-top: auto;
+}
+
+input {
+
+}
+
+button {
+
+}
+

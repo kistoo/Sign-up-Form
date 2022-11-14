@@ -23,7 +23,11 @@ body {
 }
 
 #logo div:first-child {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
 
 #logo div:first-child + div {

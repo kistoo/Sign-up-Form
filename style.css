@@ -28,6 +28,8 @@ body {
 
 #logo div:first-child + div {
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 }
 
 input {

@@ -49,7 +49,7 @@ table {
 }
 
 /*import*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono:wght@500&family=Raleway:wght@500&family=Rubik:wght@500&display=swap');
 
 /*variables*/
 
@@ -91,6 +91,11 @@ body {
 #form {
     width: 60%;
     display: flex;
+}
+
+#logo img {
+    height: 100px;
+    width: auto;
 }
 
 #logo>div:first-child {
@@ -162,6 +167,13 @@ button {
 }
 
 /*font*/
+
+h1 {
+    font-family: 'Syne Mono', Helvetica, monospace;
+    color: var(--secondary-color);
+    font-size: 60px;
+    font-weight: 900;
+}
 
 #logo>div:first-child + div p, #logo div:first-child + div a{
     color: var(--secondary-color);

@@ -58,8 +58,9 @@ table {
     --secondary-color: #cbcbcb;
     --main-background-color: #27002d;
     --secondary-background-color: #100045;
+    --main-font: 'Raleway', Helvetica, 'sans-serif';
+    --secondary-font: 'Rubik','Helvetica', 'sans-serif';
 }
-
 
 /*styles*/
 

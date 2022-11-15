@@ -55,9 +55,9 @@ table {
 
 :root {
     --main-color: #510e94;
-    --secondary-color: #edecec;
-    --main-background-color: #815f7c;
-    --secondary-background-color: #292435;
+    --secondary-color: #d6d6d6;
+    --main-background-color: #19112a;
+    --secondary-background-color: #311045;
     --main-font: 'Raleway', Helvetica, 'sans-serif';
     --secondary-font: 'Rubik','Helvetica', 'sans-serif';
 }
@@ -110,10 +110,12 @@ body {
 
 input {
     width: 60%;
+    border-radius: 5px;
 }
 
 button {
-
+    padding: 20 40px;
+    background-color: var(--secondary-background-color);
 }
 
 #form>div {

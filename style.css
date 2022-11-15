@@ -161,10 +161,6 @@ button {
     grid-column: 1/3;
 }
 
-#form>div:last-child p, #form div:last-child a{
-    padding: 20px 0px;
-}
-
 /*font*/
 
 #logo>div:first-child + div p, #logo div:first-child + div a{
@@ -193,6 +189,14 @@ h4 {
     color: var(--secondary-color);
     font-family: var(--main-font);
     font-weight: 200;
+}
+
+#form>div:last-child p, #form div:last-child a{
+    padding: 20px 0px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--secondary-color);
 }
 
 #form>div:last-child p{

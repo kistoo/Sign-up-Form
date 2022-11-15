@@ -53,6 +53,8 @@ table {
 :root {
     --main-color: #510e94;
     --secondary-color: #cbcbcb;
+    --main-background-color: #27002d;
+    --secondary-background-color: #100045;
 }
 
 
@@ -69,6 +71,10 @@ body {
     flex-direction: row;
     width: 100%;
     min-height: 100%;
+}
+
+p,h1,h2,h3,h4,a {
+    color: var(--secondary-color);
 }
 
 #logo, #form {
@@ -114,6 +120,19 @@ input {
 button {
 
 }
+
+#form div:nth-child(odd){
+    background-color: var(--main-background-color);
+}
+
+#form div:nth-child(even){
+    background-color: var(--secondary-background-color);
+}
+
+#form div:first-child {
+    padding-top: 100px;
+}
+
 
 #data-fields {
     display: grid;

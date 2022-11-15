@@ -48,6 +48,9 @@ table {
 	border-spacing: 0;
 }
 
+/*import*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rubik:ital@1&display=swap');
+
 /*variables*/
 
 :root {

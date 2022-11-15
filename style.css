@@ -56,8 +56,8 @@ table {
 :root {
     --main-color: #510e94;
     --secondary-color: #cbcbcb;
-    --main-background-color: #27002d;
-    --secondary-background-color: #100045;
+    --main-background-color: #65376c;
+    --secondary-background-color: #3b2f61;
     --main-font: 'Raleway', Helvetica, 'sans-serif';
     --secondary-font: 'Rubik','Helvetica', 'sans-serif';
 }
@@ -94,6 +94,7 @@ p,h1,h2,h3,h4,a {
 
 #form {
     width: 60%;
+    display: flex;
 }
 
 #logo div:first-child {
@@ -125,18 +126,30 @@ button {
 
 }
 
-#form div:nth-child(odd){
-    background-color: var(--main-background-color);
-}
-
-#form div:nth-child(even){
-    background-color: var(--secondary-background-color);
+#form>div {
+    padding: 50px;
 }
 
 #form div:first-child {
     padding-top: 100px;
+    flex: 0 1 auto;
 }
 
+#form div:first-child+div{
+    flex: 0 1 auto;
+}
+
+#form div:last-child {
+    flex: 1 1 auto;
+}
+
+#form>div:nth-child(odd){
+    background-color: var(--main-background-color);
+}
+
+#form>div:nth-child(even){
+    background-color: var(--secondary-background-color);
+}
 
 #data-fields {
     display: grid;

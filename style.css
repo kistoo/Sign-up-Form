@@ -54,7 +54,7 @@ table {
 /*variables*/
 
 :root {
-    --main-color: #510e94;
+    --main-color: #e68cc3;
     --secondary-color: #d6d6d6;
     --main-background-color: #19112a;
     --secondary-background-color: #311045;
@@ -114,8 +114,15 @@ input {
 }
 
 button {
-    padding: 20 40px;
-    background-color: var(--secondary-background-color);
+    padding: 15px 25px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--main-background-color);
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 16px;
 }
 
 #form>div {
@@ -182,4 +189,12 @@ h4 {
     color: var(--secondary-color);
     font-family: var(--main-font);
     font-weight: 200;
+}
+
+#form div:last-child p{
+    color: var(--secondary-color);
+}
+
+#form div:last-child a{
+    color: var(--main-color);
 }

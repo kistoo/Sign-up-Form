@@ -48,6 +48,13 @@ table {
 	border-spacing: 0;
 }
 
+/*variables*/
+
+:root {
+    --main-color: #596D48;
+}
+
+
 /*styles*/
 
 html {
@@ -90,6 +97,10 @@ body {
     margin-top: auto;
     display: flex;
     justify-content: center;
+}
+
+#logo div:first-child + div p{
+    color: #E5E7EB;
 }
 
 input {

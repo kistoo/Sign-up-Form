@@ -139,20 +139,23 @@ button:hover {
 }
 
 #form>div {
-    padding: 50px;
+
 }
 
 #form>div:first-child {
     padding-top: 90px;
     flex: 0 1 auto;
+    padding: 50px;
 }
 
 #form>div:first-child+div{
     flex: 0 1 auto;
+    padding: 30px 50px;
 }
 
 #form>div:last-child {
     flex: 1 1 auto;
+    padding: 20px 50px 50px;
 }
 
 #form>div:nth-child(odd){

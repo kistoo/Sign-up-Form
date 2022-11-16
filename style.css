@@ -93,17 +93,19 @@ body {
     display: flex;
 }
 
-#logo img {
-    height: 100px;
-    width: auto;
-}
-
 #logo>div:first-child {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 0;
+}
+
+#logo>div:first-child img {
+    height: 150px;
+    width: auto;
 }
 
 #logo>div:first-child + div {
@@ -171,7 +173,7 @@ button {
 h1 {
     font-family: 'Syne Mono', Helvetica, monospace;
     color: var(--secondary-color);
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
 }
 

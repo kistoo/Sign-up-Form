@@ -100,7 +100,7 @@ body {
     align-items: center;
     margin-top: auto;
     background-color: rgba(0,0,0,0.5);
-    padding: 20px 0;
+    padding: 2  0px 0;
 }
 
 #logo>div:first-child img {
@@ -122,14 +122,20 @@ input {
 
 button {
     padding: 15px 35px;
-    background-color: var(--main-color);
-    border: none;
+    background-color: var(--main-background-color);
     border-radius: 5px;
+    border-style: outset;
     text-decoration: none;
-    color: var(--main-background-color);
+    color: var(--main-color);
+    border-color: var(--main-color);
     font-family: var(--main-font);
     font-weight: 900;
     font-size: 16px;
+}
+
+button:hover {
+    background-color: var(--main-color);
+    color: var(--main-background-color);
 }
 
 #form>div {
@@ -219,4 +225,9 @@ h4 {
 
 #form>div:last-child a{
     color: var(--main-color);
+    text-decoration-line: none;
+}
+
+#form>div:last-child a:hover{
+    color: var(--secondary-color);
 }

@@ -124,14 +124,23 @@ form {
 input {
     width: 60%;
     border-radius: 5px;
-    font-family: var(--main-font);
-    border: 2px solid var(--main-background-color);
-    box-shadow: 0 0 0 3px var(--secondary-background-color);
+    border: none;
+    box-shadow: 0 0 0 2px var(--secondary-background-color);
     transition: 200ms box-shadow ease-in-out;
+    
 }
 
 input:focus {
     box-shadow: 0 0 0 3px var(--secondary-color);
+}
+
+.error {
+    box-shadow: 0 0 0 2px rgb(255, 63, 63);
+    outline: none;
+}
+
+.error:focus {
+    box-shadow: 0 0 0 4px rgb(255, 63, 63);
 }
 
 button {

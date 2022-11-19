@@ -1,4 +1,4 @@
-const inputNodeList = document.querySelectorAll("input");
+let inputNodeList = document.querySelectorAll("input");
 
 const submitButton=document.querySelector("button");
 submitButton.addEventListener("click",()=>checkFields());
@@ -12,6 +12,8 @@ inputNodeList.forEach(input => {
 })
 
 function checkFields() {
+    //refreshes input values
+    let inputNodeList = document.querySelectorAll("input");
     inputNodeList.forEach(input => {
         let validity = input.checkValidity();
         console.log(validity);

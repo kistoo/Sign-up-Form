@@ -71,16 +71,16 @@ table {
 /*styles*/
 
 html {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
 }
 
 body {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    min-height: 100%;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 #logo, #form {
@@ -89,13 +89,13 @@ body {
 }
 
 #logo {
-    width: 40%;
+    width: 40vw;
     background-image: url(./images/background.jpg);
     background-size: cover;
 }
 
 form {
-    width: 60%;
+    width: 60vw;
     display: flex;
 }
 
@@ -110,7 +110,7 @@ form {
 }
 
 #logo>div:first-child img {
-    height: 100px;
+    height: 15vh;
     width: auto;
 }
 
@@ -118,11 +118,12 @@ form {
     margin-top: auto;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 2vh;
 }
 
 input {
-    width: 60%;
+    width: 20vw;
+    max-height: 3vh;
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 0 2px var(--secondary-background-color);
@@ -144,16 +145,16 @@ input:focus {
 }
 
 button {
-    padding: 15px 35px;
+    padding: 1.2vw 3vw;
     background-color: var(--main-background-color);
-    border-radius: 5px;
+    border-radius: 1vh;
     border-style: outset;
     text-decoration: none;
     color: var(--main-color);
     border-color: var(--main-color);
     font-family: var(--main-font);
     font-weight: 900;
-    font-size: 16px;
+    font-size: 1.2vw;
     transition-property: background-color, color;
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
@@ -165,19 +166,19 @@ button:hover {
 }
 
 #form>div:first-child {
-    padding-top: 90px;
+    padding-top: 10vh;
     flex: 0 1 auto;
-    padding: 50px;
+    padding: 6vh;
 }
 
 #form>div:first-child+div{
     flex: 0 1 auto;
-    padding: 30px 50px;
+    padding: 6vh;
 }
 
 #form>div:last-child {
     flex: 1 1 auto;
-    padding: 20px 50px 50px;
+    padding: 4vh 6vh 6vh;
 }
 
 #form>div:nth-child(odd){
@@ -208,20 +209,20 @@ button:hover {
 h1 {
     font-family: 'Syne Mono', Helvetica, monospace;
     color: var(--secondary-color);
-    font-size: 60px;
+    font-size: 8vh;
     font-weight: 900;
 }
 
 #logo>div:first-child + div p, #logo div:first-child + div a{
     color: var(--secondary-color);
-    font-size: 14px;
+    font-size: 1.8vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #form>div:first-child p{
     font-family: var(--main-font);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 2.5vh;
     color: var(--secondary-color);
 }
 
@@ -233,17 +234,17 @@ h2 {
 }
 
 label {
-    padding: 20px 0 4px 0;
-    font-size: 12px;
+    padding: 2.5vh 0 0.5vh 0;
+    font-size: 1.4vh;
     color: var(--secondary-color);
     font-family: var(--main-font);
     font-weight: 200;
 }
 
 #form>div:last-child p, #form div:last-child a{
-    padding: 20px 0px;
+    padding: 3vh 0;
     font-family: var(--main-font);
-    font-size: 16px;
+    font-size: 2.1vh;
     color: var(--secondary-color);
 }
 

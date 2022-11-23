@@ -82,9 +82,9 @@ function checkField(textField,validFieldCount) {
 function checkFields() {
     let validFieldCount = 0;
     inputNodeList.forEach(input => {
-        validity = checkField(input);
+        validity = checkField(input,validFieldCount);
         if (validity === false) {
-            addErrorClass(input);
+            addErrorClass(input,validFieldCount);
         } else if (validity === true) {
             removeErrorClass(input);
             validFieldCount++;

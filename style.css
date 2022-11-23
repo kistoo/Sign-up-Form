@@ -110,7 +110,7 @@ form {
 }
 
 #logo>div:first-child img {
-    height: 150px;
+    height: 100px;
     width: auto;
 }
 
@@ -208,7 +208,7 @@ button:hover {
 h1 {
     font-family: 'Syne Mono', Helvetica, monospace;
     color: var(--secondary-color);
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 900;
 }
 
